@@ -1,0 +1,173 @@
+body{
+  font-family:helvetica;
+  background-image:url(https://images.wallpapersden.com/image/download/batman-telltale_66726_1920x1080.jpg);
+  color:white;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+}
+
+
+div.header-img{
+  width:100%;
+  background-color:#06161f;
+  overflow:hidden;
+  position:fixed; 
+  
+}
+
+
+#header-img{
+  width:300px;
+  height:110px;
+  filter:invert(000%);
+  margin:auto;
+  display:block;
+  
+}
+div.nav-bar{
+  overflow:hidden;
+  position:fixed;
+  background-color:;
+  width:100%;
+  top:22%;
+  height:15%;
+  color:white;
+  
+}
+.nav-link{
+  color:blue;
+  text-decoration:none;
+  text-align:center;
+  font-size:25px;
+  padding:14px 50px;
+  float:right;
+  transition:background .5s ease;
+  color:white;
+  font-family:Gotham;
+}
+.nav-link:hover{
+background-color:#1acdd6; 
+}
+.title{
+  margin-top:150px;
+  width:100.6%;
+  color:white;
+  text-align:center;
+  background-color:#06161f;
+}
+
+#email{
+  display:block;
+  margin:auto;
+  width:180px;
+  padding:8px;
+  border-radius:50px;
+  border:none;
+  background-color:#3c7ac9;
+  font-size:15px;
+  transition:width .5s ease,background .5s ease;
+}
+
+#email::placeholder{
+  color:white;
+  opacity:80%;
+}
+
+#email:hover{
+  background-color:#0f2080;
+  width:300px;
+}
+
+#submit{
+  display:block;
+  margin:auto;
+  padding:8px;
+  border:none;
+  border-radius:10px;
+  width:80px;
+  background-color:#3c7ac9;
+  margin-top:20px;
+  color:white;
+  font-size:15px;
+}
+
+#submit:hover{
+  background-color:#21d8de;
+}
+.text{
+  width:700px;
+  margin:auto;
+  color:white;
+  margin-top:100px;
+  transition:text .5s ease;
+  box-shadow:0px 0px 10px #000000;
+  background-color:#06161f;
+  padding:5px;
+}
+text:hover{
+  text-shadow:0px 0px 10px;
+}
+
+#video{
+  margin:auto;
+  
+  display:block;
+  margin-top:100px;
+  margin-bottom:100px;
+  background-color:#008fb3
+    padding:5px;
+}
+
+div.flex-container{
+  display:flex;
+  justify-content:center;
+  text-align:center;
+  color:black;
+  
+}
+div.MainBat{
+  background-color:white;
+  margin:50px;
+  transition:box-shadow .5s ease;
+  
+}
+.MainBat:hover{
+  box-shadow:0px 0px 10px #000000;
+}
+div.Bat-title{
+  padding:10px;
+  background-color:#216bc4;
+  color:white;
+  text-align:center;
+  font-family:Gotham;
+}
+
+div.Bat-description{
+  color:black;
+}
+#Bat-submit{
+  background-color: #22a3bd;
+  border:none;
+  width:100%;
+  color:white;
+  text-decoration:none;
+  font-size:20px;
+  padding:15px;
+  transition:background .5s ease;
+}
+#Bat-submit:hover{
+  background-color:#21d8de;
+}
+@media screen and(max-width:){
+  .flex-container{
+    flex-direction:column;
+  }
+  .nav-link{
+    width:100%;
+    margin:auto;
+  }
+  .text{
+    width:400px;    
+  }
+}
